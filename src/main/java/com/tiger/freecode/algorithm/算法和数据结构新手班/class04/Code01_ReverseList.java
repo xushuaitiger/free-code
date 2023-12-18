@@ -27,11 +27,13 @@ public class Code01_ReverseList {
 	public static Node reverseLinkedList(Node head) {
 		Node pre = null;
 		Node next = null;
+		// head->1->2->3
 		while (head != null) {
-			next = head.next;
-			head.next = pre;
-			pre = head;
-			head = next;
+			next = head.next;//记录下一个node next->2
+			head.next = pre;//翻转操作
+			pre = head;//更新pre
+			head = next;//更新head至下一个node
+
 		}
 		return pre;
 	}

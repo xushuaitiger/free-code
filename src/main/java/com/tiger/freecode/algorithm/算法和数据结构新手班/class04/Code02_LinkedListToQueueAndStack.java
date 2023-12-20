@@ -16,6 +16,10 @@ public class Code02_LinkedListToQueueAndStack {
 		}
 	}
 
+	/**
+	 * 链表转队列
+	 * @param <V>
+	 */
 	public static class MyQueue<V> {
 		private Node<V> head;
 		private Node<V> tail;

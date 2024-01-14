@@ -2,17 +2,17 @@ package com.tiger.freecode.algorithm.算法和数据结构新手班.class01;
 
 public class Code01_PrintBinary {
 
-	public static void print(int num) {
-		for (int i = 31; i >= 0; i--) {
-			System.out.print((num & (1 << i)) == 0 ? "0" : "1");
-		}
-		System.out.println();
-	}
+    public static void print(int num) {
+        for (int i = 31; i >= 0; i--) {
+            System.out.print((num & (1 << i)) == 0 ? "0" : "1");
+        }
+        System.out.println();
+    }
 
-	public static void main(String[] args) {
-		int num =1;
-		print(num);
-		// 32位
+    public static void main(String[] args) {
+        int num = 1;
+        print(num);
+        // 32位
 //		int num = 4;
 //
 //		print(num);
@@ -62,6 +62,6 @@ public class Code01_PrintBinary {
 //		print(c);
 //		print(d);
 
-	}
+    }
 
 }

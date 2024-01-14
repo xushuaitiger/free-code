@@ -1,4 +1,4 @@
-package com.tiger.freecode.algorithm.算法和数据结构新手班.class07;
+package com.tiger.freecode.algorithm.绠楁硶鍜屾暟鎹粨鏋勬柊鎵嬬彮.class07;
 
 public class Code05_IsBinarySearchTree {
 

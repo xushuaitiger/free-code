@@ -1,4 +1,4 @@
-package com.tiger.freecode.algorithm.Ëã·¨ºÍÊý¾Ý½á¹¹ÐÂÊÖ°à.class04;
+package com.tiger.freecode.algorithm.ç®—æ³•å’Œæ•°æ®ç»“æž„æ–°æ‰‹ç­.class04;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,10 +29,10 @@ public class Code01_ReverseList {
 		Node next = null;
 		// head->1->2->3
 		while (head != null) {
-			next = head.next;//¼ÇÂ¼ÏÂÒ»¸önode next->2
-			head.next = pre;//·­×ª²Ù×÷
-			pre = head;//¸üÐÂpre
-			head = next;//¸üÐÂheadÖÁÏÂÒ»¸önode
+			next = head.next;//ï¿½ï¿½Â¼ï¿½ï¿½Ò»ï¿½ï¿½node next->2
+			head.next = pre;//ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½
+			pre = head;//ï¿½ï¿½ï¿½ï¿½pre
+			head = next;//ï¿½ï¿½ï¿½ï¿½headï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½node
 
 		}
 		return pre;

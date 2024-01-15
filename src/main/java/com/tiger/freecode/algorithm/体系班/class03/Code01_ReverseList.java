@@ -1,4 +1,4 @@
-package com.tiger.freecode.algorithm.算法和数据结构新手班.class04;
+package com.tiger.freecode.algorithm.体系班.class03;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,16 +24,17 @@ public class Code01_ReverseList {
 		}
 	}
 
+	//  head
+	//   a    ->   b    ->  c  ->  null
+	//   c    ->   b    ->  a  ->  null
 	public static Node reverseLinkedList(Node head) {
 		Node pre = null;
 		Node next = null;
-		// head->1->2->3
 		while (head != null) {
-			next = head.next;//暂存下个指针
-			head.next = pre;//逆转
-			pre = head;//将头部指向pre
-			head = next;//head指向下一个
-
+			next = head.next;
+			head.next = pre;
+			pre = head;
+			head = next;
 		}
 		return pre;
 	}
@@ -177,11 +178,6 @@ public class Code01_ReverseList {
 		return true;
 	}
 
-	
-	public static void f(Node head) {
-		head = head.next;
-	}
-	
 	// for test
 	public static void main(String[] args) {
 		int len = 50;

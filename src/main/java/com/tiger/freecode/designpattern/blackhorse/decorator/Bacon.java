@@ -1,4 +1,4 @@
-package com.tiger.freecode.designpattern.decorator;
+package com.tiger.freecode.designpattern.blackhorse.decorator;
 
 /**
  * @version v1.0

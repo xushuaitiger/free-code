@@ -1,4 +1,4 @@
-package com.tiger.freecode.designpattern.template;
+package com.tiger.freecode.designpattern.blackhorse.template;
 
 /**
  * @version v1.0

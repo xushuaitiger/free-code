@@ -19,7 +19,9 @@ COMMAND + ⇧ + H                  显示方法层次结构
 CONTROL + ⇧ + H                  显示调用层次结构
 COMMAND + ,                      打开setting
 COMMAND + 3                      查找action
-CONTROL + H                      查找方法使用情况
+CONTROL + H                      全文搜索
+COMMAND + K                      当前文件内搜索
+⇧ + COMMAND + G                  查找类或者方法用途
 
 
 

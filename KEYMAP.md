@@ -18,6 +18,7 @@ CONTROL + T                      重构一个类
 COMMAND + ⇧ + H                  显示方法层次结构
 CONTROL + ⇧ + H                  显示调用层次结构
 COMMAND + ,                      打开setting
+COMMAND + 3                      查找action
 
 
 

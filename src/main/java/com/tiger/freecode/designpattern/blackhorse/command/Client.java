@@ -8,7 +8,7 @@ package com.tiger.freecode.designpattern.blackhorse.command;
  */
 public class Client {
     public static void main(String[] args) {
-        //创建第一个订单对象啊
+        //创建第一个订单对象
         Order order1 = new Order();
         order1.setDiningTable(1);
         order1.setFood("西红柿鸡蛋面",1);

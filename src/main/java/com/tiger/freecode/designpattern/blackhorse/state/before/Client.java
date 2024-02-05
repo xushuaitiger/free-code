@@ -12,7 +12,7 @@ public class Client {
         Lift lift = new Lift();
 
         //设置当前电梯的状态
-        lift.setState(ILift.CLOSING_STATE);
+        lift.setState(ILift.RUNNING_STATE);
 
         //打开
         lift.open();

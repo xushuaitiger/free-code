@@ -11,7 +11,7 @@ public class Client {
         //创建环境角色对象
         Context context = new Context();
         //设置当前电梯装填
-        context.setLiftState(new RunningState());
+        context.setLiftState(new ClosingState());
 
         context.open();
         context.run();

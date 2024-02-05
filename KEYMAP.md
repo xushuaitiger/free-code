@@ -19,6 +19,7 @@ COMMAND + ⇧ + H                  显示方法层次结构
 CONTROL + ⇧ + H                  显示调用层次结构
 COMMAND + ,                      打开setting
 COMMAND + 3                      查找action
+CONTROL + H                      查找方法使用情况
 
 
 

@@ -1,10 +1,10 @@
 package com.tiger.freecode.algorithm.体系班.class37;
 
-import java.util.TreeMap;
-
 import com.tiger.freecode.algorithm.体系班.class35.Code01_AVLTreeMap.AVLTreeMap;
 import com.tiger.freecode.algorithm.体系班.class36.Code01_SizeBalancedTreeMap.SizeBalancedTreeMap;
 import com.tiger.freecode.algorithm.体系班.class36.Code02_SkipListMap.SkipListMap;
+
+import java.util.TreeMap;
 
 // 本文件为avl、sbt、skiplist三种结构的测试文件
 public class Compare {

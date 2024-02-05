@@ -1,10 +1,6 @@
 package com.tiger.freecode.algorithm.体系班.class16;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class Code03_TopologySort {
 

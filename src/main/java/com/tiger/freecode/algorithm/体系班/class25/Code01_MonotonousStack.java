@@ -1,7 +1,7 @@
 package com.tiger.freecode.algorithm.体系班.class25;
 
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Stack;
 
 public class Code01_MonotonousStack {

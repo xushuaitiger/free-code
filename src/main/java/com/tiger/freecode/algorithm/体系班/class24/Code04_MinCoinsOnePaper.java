@@ -1,8 +1,8 @@
 package com.tiger.freecode.algorithm.体系班.class24;
 
 import java.util.HashMap;
-import java.util.Map.Entry;
 import java.util.LinkedList;
+import java.util.Map.Entry;
 
 public class Code04_MinCoinsOnePaper {
 

@@ -24,6 +24,8 @@ CONTROL + H                      全文搜索
 COMMAND + K                      当前文件内搜索
 ⇧ + COMMAND + G                  查找类或者方法用途
 CONTROL + TAB                    切换打开的标签
+OPTION + COMMAND + [             当前所在代码块的开始位置
+COMMAND + O                      弹出当前文件结构层
 
 
 

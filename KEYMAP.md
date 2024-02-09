@@ -26,6 +26,7 @@ COMMAND + K                      当前文件内搜索
 CONTROL + TAB                    切换打开的标签
 OPTION + COMMAND + [             当前所在代码块的开始位置
 COMMAND + O                      弹出当前文件结构层
+⇧ + ⇧                            搜索一切
 
 
 

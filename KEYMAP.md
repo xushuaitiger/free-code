@@ -28,6 +28,7 @@ OPTION + COMMAND + [             当前所在代码块的开始位置
 COMMAND + O                      弹出当前文件结构层
 ⇧ + ⇧                            搜索一切
 COMMAND + SHIFT + `              切换窗口
+CONTROL + COMMAND + F            全屏/退出全屏
 
 
 

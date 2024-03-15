@@ -30,6 +30,7 @@ COMMAND + O                      弹出当前文件结构层
 COMMAND + SHIFT + `              切换窗口
 CONTROL + COMMAND + F            全屏/退出全屏
 OPTION + COMMAND + D             显示/隐藏程序坞
+COMMAND + 1                      快速修复代码
 
 
 
